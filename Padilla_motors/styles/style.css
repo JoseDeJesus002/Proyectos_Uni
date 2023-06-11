@@ -1,0 +1,269 @@
+body {
+  font-family: "Lato", sans-serif;
+  background: #747474;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-family: "baloo da 2", cursive;
+  font-size: 25px;
+  color: #f7f3f3;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #4e4c4c8c;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+.openMenu {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  right: 100px;
+}
+#imagenAuto {
+  position: absolute;
+  left: 250px;
+  top: 20px;
+  height: 45px;
+  width: 88px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 15px;
+}
+#elipse {
+  z-index: -1;
+  position: absolute;
+  background-color: #ffffff;
+  height: 70px;
+  width: 69px;
+  border-radius: 50%;
+}
+#imagenLogo {
+  z-index: -1;
+  position: absolute;
+  left: 11px;
+}
+#name {
+  position: absolute;
+  width: 137px;
+  height: 44px;
+  left: 100px;
+  top: -10px;
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 20px;
+  /* or 67% */
+  letter-spacing: 0.1em;
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+}
+.menuBar {
+  z-index: -1;
+  position: absolute;
+  background-color: #353434;
+  top: 0px;
+  left: 0px;
+  height: 100px;
+  width: 1878px;
+}
+#contentWelcome {
+  position: absolute;
+  top: 200px;
+  left: 380px;
+  width: 1100px;
+  height: 300px;
+  background: #aa2e2e;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
+}
+#saludo {
+  position: absolute;
+  width: 300px;
+  height: 109px;
+  left: 400px;
+  top: 90px;
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 20px;
+  /* or 42% */
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+#contentInfo {
+  position: absolute;
+  top: 550px;
+  left: 380px;
+  width: 1100px;
+  height: 300px;
+  background: #284099;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
+}
+#infoAcerca {
+  position: absolute;
+  width: 300px;
+  height: 109px;
+  left: 400px;
+  top: -20px;
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 20px;
+  /* or 42% */
+  text-align: center;
+  letter-spacing: 0.1em;
+  line-height: 1em;
+
+  color: #ffffff;
+}
+
+#info {
+  position: absolute;
+  width: 351px;
+  height: 112px;
+  left: 370px;
+  top: 90px;
+  font-family: "Baloo Da 2", cursive;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  /* or 133% */
+
+  text-align: center;
+  letter-spacing: 0.1em;
+
+  color: #ffffff;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-height: 750px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+
+  #contentWelcome {
+    position: absolute;
+    top: 150px;
+    left: 380px;
+    width: 600px;
+    height: 200px;
+    background: #aa2e2e;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+  }
+  #saludo {
+    position: absolute;
+    width: 300px;
+    height: 109px;
+    left: 160px;
+    top: 30px;
+    font-family: "Baloo Da 2", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 20px;
+    /* or 42% */
+    text-align: center;
+    letter-spacing: 0.1em;
+  
+    color: #ffffff;
+  }
+  .menuBar {
+    z-index: -1;
+    position: absolute;
+    background-color: #353434;
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    width: 1325px;
+  }
+  #contentInfo {
+    position: absolute;
+    top: 410px;
+    left: 380px;
+    width: 600px;
+    height: 200px;
+    background: #284099;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+  }
+  #infoAcerca {
+    position: absolute;
+    width: 300px;
+    height: 109px;
+    left: 150px;
+    top: -20px;
+    font-family: "Baloo Da 2", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 20px;
+    /* or 42% */
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 1em;
+
+    color: #ffffff;
+  }
+
+  #info {
+    position: absolute;
+    width: 351px;
+    height: 112px;
+    left: 128px;
+    top: 30px;
+    font-family: "Baloo Da 2", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 133% */
+
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    color: #ffffff;
+  }
+}

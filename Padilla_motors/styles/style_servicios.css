@@ -1,0 +1,186 @@
+body {
+    font-family: "Lato", sans-serif;
+    background: #747474;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-family: "baloo da 2", cursive;
+    font-size: 25px;
+    color: #f7f3f3;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #4e4c4c8c;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  .openMenu {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    right: 100px;
+  }
+  
+  #elipse {
+    z-index: -1;
+    position: absolute;
+    background-color: #ffffff;
+    height: 70px;
+    width: 69px;
+    border-radius: 50%;
+  }
+  #imagenLogo {
+    z-index: -1;
+    position: absolute;
+    left: 11px;
+  }
+  #name {
+    position: absolute;
+    width: 137px;
+    height: 44px;
+    left: 100px;
+    top: -10px;
+    font-family: "Baloo Da 2", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 20px;
+    /* or 67% */
+    letter-spacing: 0.1em;
+    color: #ffffff;
+  
+    mix-blend-mode: normal;
+  }
+  .menuBar {
+    z-index: -1;
+    position: absolute;
+    background-color: #353434;
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    width: 1878px;
+  }
+  #imagenAuto {
+    position: absolute;
+    width: 265px;
+    height: 135px;
+    left: 500px;
+    top: 650px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 15px;
+  }
+  #imagenMapa {
+    position: absolute;
+    left: 680px;
+    top: 247px;
+    border-radius: 20px;
+    width: 500px;
+    height: 290px;
+    border-radius: 20px;
+  }
+  @media screen and (max-height: 750px) {
+    .sidenav {
+      padding-top: 15px;
+    }
+    .sidenav a {
+      font-size: 18px;
+    }
+    .menuBar {
+      z-index: -1;
+      position: absolute;
+      background-color: #353434;
+      top: 0px;
+      left: 0px;
+      height: 100px;
+      width: 1324px;
+    }
+    #imagenAuto {
+      position: absolute;
+      width: 265px;
+      height: 135px;
+      left: 400px;
+      top: 500px;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      border-radius: 15px;
+    }
+    #imagenMapa {
+      position: absolute;
+      left: 430px;
+      top: 150px;
+      border-radius: 20px;
+      width: 500px;
+      height: 290px;
+      border-radius: 20px;
+    }
+    #socialNetwork{
+      position: absolute;
+      width: 351px;
+      height: 112px;
+      left: 600px;
+      top: 500px;
+      font-family: "Baloo Da 2", cursive;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      /* or 133% */
+  
+      text-align: center;
+      letter-spacing: 0.1em;
+  
+      color: #ffffff;
+    }
+    #socialNetwork a{
+    text-decoration: none;
+    font-family: "baloo da 2", cursive;
+    font-size: 25px;
+    color: #030303;
+    display: block;
+    transition: 0.3s;
+    }
+    #fondo{
+        position: relative;
+        top: 100px;
+        left: 200px;
+        z-index: -1;
+        border-radius: 20px;
+        background: #aa2e2e;
+        height: 300px;
+        width: 920px;
+    }
+    #servicios a{
+        padding-left: 100px;
+        text-decoration: none;
+        font-family: "baloo da 2", cursive;
+        font-size: 25px;
+        color: #e7e2e2;
+        }
+    #imagenes{
+        position: absolute;
+        left: 270px;
+        top: 120px;
+    }
+  }
