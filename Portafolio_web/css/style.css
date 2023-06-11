@@ -86,7 +86,6 @@ body {
   min-height: 100%;
   transition: 0.5s;
 }
-
 .subtitle {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 30px;
@@ -94,13 +93,14 @@ body {
   min-height: 100%;
   transition: 0.5s;
 }
-.files{
-  margin-left: 120px;
+
+.pdfview{
+  margin-left: 300px;
   margin-right: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
-  width: 1280px;
-  height: 700px;
+  width: 900px;
+  height: 800px;
   overflow: hidden;
 }
 .info {
@@ -172,13 +172,14 @@ body {
     margin-top: 410px;
     padding: 0px;
   }
-  .files{
-    margin-left: 80px;
+  .pdfview{
+    margin-left: 50px;
     margin-right: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
-    width: 200px;
-    height: 300px;
+    width: 256px;
+    height: 417px;
+    overflow: hidden;
   }
   .info {
     font-size: 15px;
