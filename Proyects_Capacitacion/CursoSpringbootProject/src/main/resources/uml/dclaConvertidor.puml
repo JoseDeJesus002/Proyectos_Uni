@@ -1,0 +1,19 @@
+@startuml
+
+package mx.com.oitic.curso.utileria{
+
+
+class Convertidor
+{
+- int  base= 2;
+
++ String : convierteDecimalBinario(int)
+
+}
+
+
+
+}
+
+
+@enduml
